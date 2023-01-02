@@ -5,12 +5,32 @@
     list-style: none;
 }
 
+body{
+    width: 100%;
+    max-width: 700px;
+    margin:auto
+}
+
 header, h3, footer{
     margin-left: 1.5rem;
 }
 
 h1{
     margin-bottom: -1rem;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#covers{
+    width: 200px;
+    padding-left: 1rem;
+}
+
+#covers figure img{
+    width: 200px;
 }
 
 #divider{
@@ -22,6 +42,11 @@ footer{
     margin-bottom: 1.5rem;
 }
 
+@media screen and (max-width:700px) {
+    #covers{
+        display:none;
+    }
+}
 
 @media screen and (max-width:450px) {
     ol{
