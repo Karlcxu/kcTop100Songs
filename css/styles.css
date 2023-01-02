@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(30, 30, 30);
+    color:rgb(235, 235, 235);
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+header, h3, footer{
+    margin-left: 1.5rem;
+}
+
+h1{
+    margin-bottom: -1rem;
+}
+
+#divider{
+    margin-left: 2rem;
+}
+
+footer{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
