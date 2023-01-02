@@ -1,0 +1,8 @@
+# basic options
+title: Karl Choi's Top 100
+author: Karl Choi
+description: This is Karl Choi's Top 100 Songs of All Time. Suggest songs to him and he may consider them for the list.
+
+# Build settings
+markdown: kramdown
+theme: minima
